@@ -8,3 +8,4 @@ echo -e "linuxpassword\nlinuxpassword" | passwd root
 echo "PermitRootLogin yes" >> /etc/ssh/sshd_config
 
 /etc/init.d/ssh restart
+exit
